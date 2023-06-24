@@ -14,9 +14,14 @@ print("文字列の長さは" + str(s))
 
 i = 0
 while i < s:
-    letter = n[i]
-    output = letter*2
-    print(output)
+    a = list(n)
+    print(a)
+    #letter = n[i]
+    #output = letter*2
+    #print(output)
+
+
+
     i = i + 1
 
 #ループ外で出力
