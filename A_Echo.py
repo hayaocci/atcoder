@@ -16,5 +16,7 @@ s = len(n)
 
 i = 0
 while i < s:
-    print(i)
+    output1 = n[i]
+    print(output1)
+
     i = i + 1
