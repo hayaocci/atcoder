@@ -12,10 +12,12 @@ print("入力した文字列は" + n)
 s = len(n)
 print("文字列の長さは" + str(s))
 
+a = list(n)
+
 i = 0
 while i < s:
-    a = list(n)
-    print(a)
+    
+    
     #letter = n[i]
     #output = letter*2
     #print(output)
@@ -26,4 +28,4 @@ while i < s:
 
 #ループ外で出力
 print("ループ外で出力")
-print(output)
+#print(output)
