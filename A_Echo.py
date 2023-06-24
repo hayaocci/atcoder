@@ -15,10 +15,11 @@ print("文字列の長さは" + str(s))
 o = list(n)
 print(o)
 
-
+'''
 i = 0
 while i < s:
     output= n[i] + n[i]
     print(output1)
 
     i = i + 1
+'''
