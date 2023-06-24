@@ -14,6 +14,7 @@ print(output)
 #文字列の長さ
 s = len(n)
 
+i = 0
 while i < s:
     print(i)
     i = i + 1
