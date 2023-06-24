@@ -10,3 +10,10 @@ print(n)
 #文字列の抽出
 output = n[1]
 print(output)
+
+#文字列の長さ
+s = len(n)
+
+while i < s:
+    print(i)
+    i = i + 1
