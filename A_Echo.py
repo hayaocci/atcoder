@@ -15,6 +15,9 @@ print("文字列の長さは" + str(s))
 o = list(n)
 print(o)
 
+o1 = list(list_split(o, 1))
+print(o1)
+
 '''
 i = 0
 while i < s:
