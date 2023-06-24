@@ -20,4 +20,5 @@ while i < s:
     i = i + 1
 
 #ループ外で出力
+print("ループ外で出力")
 print(output)
