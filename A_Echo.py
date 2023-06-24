@@ -9,7 +9,7 @@ print("入力した文字列は" + n)
 
 #文字列の長さ
 s = len(n)
-print("文字列の長さは" + s)
+print("文字列の長さは" + str(s))
 
 i = 0
 while i < s:
