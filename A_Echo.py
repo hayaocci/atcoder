@@ -1,31 +1,19 @@
 #20230624
 #A - Echo
 
-#文字列の入力
-print("文字列を入力してください")
+#文字列の長さ
 n = input()
 
-#入力した文字列の確認
-print("入力した文字列は" + n)
+#文字列の入力
+#print("文字列を入力してください")
+s = input()
 
-#文字列の長さ
-s = len(n)
-print("文字列の長さは" + str(s))
-
-a = list(n)
-
+#2Nの文字列を出力
 i = 0
-while i < s:
-    
-    
-    #letter = n[i]
-    #output = letter*2
-    #print(output)
+letter = ""
 
-
-
+while i < int(n):
+    letter = letter + s[i]*2
     i = i + 1
 
-#ループ外で出力
-print("ループ外で出力")
-#print(output)
+print(letter)
