@@ -3,3 +3,5 @@
 
 n = input()
 
+print(n)
+
