@@ -1,6 +1,11 @@
 #20230624
 #A - Echo
 
+def list_split(list, n):
+    for i in range(0, len(list), n):
+        yield list[i:i + n]
+        
+
 #文字列の入力
 print("文字列を入力してください")
 n = input()
