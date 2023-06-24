@@ -5,14 +5,11 @@
 n = input()
 
 #入力した文字列の確認
-print(n)
-
-#文字列の抽出
-output = n[1]
-print(output)
+print("入力した文字列は" + n)
 
 #文字列の長さ
 s = len(n)
+print("文字列の長さは" + s)
 
 i = 0
 while i < s:
