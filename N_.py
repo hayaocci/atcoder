@@ -9,8 +9,6 @@ count = 0
 for i in range(N):
     array.append([input()])
 
-
-
 for j in range(N):
     s = array[j]
 
