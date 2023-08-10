@@ -10,29 +10,15 @@ def ii(): return int(input())
 def mi():return map(int, input().split())
 def lmi(): return list(map(int, input().split()))
 
+n, d = map(int, input().split())
+t = list(map(int, input().split()))
+a = 0
 
+for i in range (n-1):
+    if t[i+1]-t[i] <= d:
+        print(t[i+1])
+        a = 1
+        break
 
-n = int(input())
-s = str(input())
-# s = list(map(int, input().split()))
-
-if 'o' in s:
-    pass
-else:
+if a == 0:
     print(-1)
-    exit()
-
-l = 0
-list = []
-
-for i in range(n):
-    if s[i] == 'o':
-        l +=1
-
-    else:
-        list.append(l)
-        l = 0
-
-max_l = max(list)
-
-print(max_l)

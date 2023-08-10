@@ -10,29 +10,15 @@ def ii(): return int(input())
 def mi():return map(int, input().split())
 def lmi(): return list(map(int, input().split()))
 
-
-
-n = int(input())
 s = str(input())
-# s = list(map(int, input().split()))
 
-if 'o' in s:
-    pass
+x = s.index('B') +1
+y = s.rindex('B') +1
+a = s.index('R') +1
+b = s.rindex('R') +1
+z = s.index('K') +1
+
+if (y-x)%2==1 and a < z < b:
+    print('Yes')
 else:
-    print(-1)
-    exit()
-
-l = 0
-list = []
-
-for i in range(n):
-    if s[i] == 'o':
-        l +=1
-
-    else:
-        list.append(l)
-        l = 0
-
-max_l = max(list)
-
-print(max_l)
+    print('No')
