@@ -17,4 +17,11 @@ s = []
 for i in range (h):
     s.append(input())
 
-print(s)
+for i in range (h):
+    a = list(s[i])
+    for j in range (w-1):
+        if a[j] == 'T' and a[j+1] == 'T':
+            a[j] ='P'
+            a[j+1] = 'C'
+
+    print(''.join(a))
