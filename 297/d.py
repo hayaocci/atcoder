@@ -10,6 +10,8 @@ def ii(): return int(input())
 def mi():return map(int, input().split())
 def lmi(): return list(map(int, input().split()))
 
+# うまくコードかけなかった 割り算しててもTLEになってしまう
+
 a, b = list(map(int, input().split()))
 
 ans = 0
@@ -67,7 +69,6 @@ print(ans)
 #         ans = (b-a)/a
 
 # print(ans)
-
 
 
 # count = 0
