@@ -10,3 +10,13 @@ def ii(): return int(input())
 def mi():return map(int, input().split())
 def lmi(): return list(map(int, input().split()))
 
+n = int(input())
+a = list(map(int, input().split()))
+
+week = []
+
+for i in range (n):
+    sum_a = sum(a[7*i:7*i+7])
+    week.append(sum_a)
+
+print(' '.join(map(str, week)))

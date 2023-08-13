@@ -9,4 +9,3 @@ def list_int(): return list(map(int, input().split()))
 def ii(): return int(input())
 def mi():return map(int, input().split())
 def lmi(): return list(map(int, input().split()))
-
