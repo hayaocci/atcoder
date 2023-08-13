@@ -15,7 +15,7 @@ A - N-choice question
 https://atcoder.jp/contests/abc300/tasks/abc300_a
 
 '''
-
+    
 nab = list(map(int, input().split()))
 C_all = list(map(int, input().split()))
 
